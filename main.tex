@@ -1,0 +1,108 @@
+\documentclass[12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{multicol}
+\usepackage{fancyhdr}
+\usepackage{gensymb}
+\usepackage{graphicx}
+\usepackage{listings}
+\usepackage{color}
+\usepackage{hyperref}
+\usepackage[margin=1in]{geometry}
+
+\begin{document}
+
+\begin{titlepage}
+    \begin{center}
+        \vspace*{1cm}
+            
+        \LARGE
+        \textbf{Conceptual Design Report}
+            
+        \vspace{0.5cm}
+        \Large
+        AER E 461 - Modern Design Methodology with Aerospace Applications 
+            
+        \vspace{0.5 cm}
+    \begin{figure}[h]
+        \includegraphics[width=16 cm]{Team_Wallaby_Logo.png}
+        \centering
+    \end{figure}
+    \vspace{0.5 cm}
+        \large
+        \textbf{Team Wallaby}\\
+        \normalsize\vspace{15 pt}        Shashwini Krishnan,\\        
+        Tyler Cascalho Cox,\\
+        Michael Huntley,\\
+        Grace Morrissey,\\
+        Parker Coulter,\\
+        Charles Hingst,\\
+        Chris  Mueller,\\
+        Derrek Brock,\\
+        Taylor Rahn,\\
+        Cole Burkle,\\
+        Cole Gidel\\
+        
+            
+        \vfill
+            
+            
+        \vspace{0.8cm}
+            
+            
+        \Large
+        Iowa State University\\
+        Undergraduate Aerospace Engineering
+        
+            
+    \end{center}
+\end{titlepage}
+
+
+\pagestyle{fancy}
+\fancyhead[LE,RO]{\normalsize Team Wallaby}
+\fancyhead[RE,LO]{\normalsize Conceptual Design Report}
+\fancyfoot[CE,CO]{\leftmark}
+\fancyfoot[LE,RO]{\thepage}
+
+
+\include{Sections/ExecutiveSummary}
+
+\newpage
+\tableofcontents
+
+\newpage
+\include{Sections/Requirements}
+
+\newpage
+\include{Sections/MarketSurvey}
+
+\newpage
+\include{Sections/InitialDesignConcept}
+
+\newpage
+\include{Sections/TradeStudies}
+
+\newpage
+\include{Sections/FinialConceptDesign}
+
+\newpage
+\include{Sections/ProposalForNextSemester}
+
+\newpage
+\include{Sections/ClosingSummary}
+
+\newpage
+\include{Sections/References}
+
+\newpage
+\setcounter{section}{0}
+\def\thesection{\Alph{section}}
+\include{Appendix/AppendixOfDataTables}
+
+\newpage
+\include{Appendix/AppendixOfFigures}
+
+
+
+\end{document}
+
